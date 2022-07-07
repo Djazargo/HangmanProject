@@ -12,9 +12,6 @@ public class Hangman {
 
         char[] randomWordArray = stringToCharArray(randomWord); // array of chars from String randomWord
 
-        System.out.println(Arrays.toString(randomWordArray)); // test print chars array from string
-
-
         char[] wordArray = new char[randomWordArray.length]; // defined wordArray for work with comparasions
         for(int i = 0; i < randomWordArray.length; i++){    // now fill with '_' symbols
             wordArray[i] = '_';
